@@ -54,7 +54,7 @@ int NcScreen::mainMenu(CreateData &createData, int &gameMode)
         mvaddstr(row / 2 + 2, col / 4, " Exit");
         mvaddch(row / 2 - 2 + cursPos, col / 4 - 2, '>');
 
-        mvprintw(0, 0, "PotaynoyLaz %.2f", clientVersion);
+        mvprintw(0, 0, "PRJ-6 %.2f", clientVersion);
         mvaddstr(row - 3, 0, "In game controls:");
 
         mvaddstr(row - 1, 0, "q = exit");
